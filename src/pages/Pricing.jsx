@@ -1,9 +1,12 @@
 // Uses the same styles as Product
+
+import PageNav from "../components/PageNav/PageNav";
 import styles from "./Product.module.css";
 
 const Product = () => {
   return (
     <main className={styles.product}>
+      <PageNav />
       <section>
         <div>
           <h2>
