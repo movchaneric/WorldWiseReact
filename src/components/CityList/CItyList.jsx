@@ -2,8 +2,11 @@ import styles from "./CItyList.module.css";
 import CityItem from "../CityItem/CityItem";
 import Message from "../Message/Message";
 import { Fragment } from "react";
+import { useCities } from "../../context/CitiesContext";
 
-const CityList = ({ cities, isLoading }) => {
+const CityList = () => {
+  const {cities} = useCities();
+  
   if (!cities.length) return <Message />;
 
   return (
