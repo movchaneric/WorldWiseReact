@@ -29,12 +29,47 @@ const CitiesProvider = ({ children }) => {
     }
   };
 
+  const createCity = async (newCity) => {
+    try {
+      const res = await fetch(`http://localhost:3000/cities`, {
+        method: "POST",
+        body: JSON.stringify(newCity),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      const cityData = await res.json();
+      setCities((prevState) => [...prevState, cityData]);
+      //add the data(new city) to the cities effect
+    } catch (err) {
+      alert("failed to fetch cities");
+    }
+  };
+
+  const deleteCity = async (cityId) => {
+    if (!cityId) return;
+
+    const updatedCities = cities.filter((city) => city.id !== cityId);
+
+    try {
+      const res = await fetch(`http://localhost:3000/cities`, {
+        method: "DELETE",
+      });
+      
+      setCities(updatedCities);
+    } catch (err) {
+      alert("failed to delete city with the id ");
+    }
+  };
+
   return (
     <CitiesContext.Provider
       value={{
         cities,
         currentCity,
         getCityById,
+        createCity,
+        deleteCity,
       }}
     >
       {children}

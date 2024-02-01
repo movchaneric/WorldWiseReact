@@ -1,52 +1,793 @@
 {
-    "cities": [
-        {
-            "cityName": "Lisbon",
-            "country": "Portugal",
-            "emoji": "🇵🇹",
-            "date": "2027-10-31T15:59:59.138Z",
-            "notes": "My favorite city so far!",
-            "position": {
-                "lat": 38.727881642324164,
-                "lng": -9.140900099907554
-            },
-            "id": 73930385
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": "73930385"
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": "17806751"
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "cityName": "Nijar",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-04-03T07:47:59.202Z",
+      "notes": "",
+      "position": {
+        "lat": "36.967508314568164",
+        "lng": "-2.13128394200588"
+      },
+      "id": "98443198"
+    },
+    {
+      "id": "6457",
+      "cityName": "Ra'anana",
+      "country": "Israel",
+      "date": "2024-02-01T17:46:39.799Z",
+      "notes": "City I want to live in.",
+      "emoji": "🇮🇱",
+      "position": {
+        "lat": "32.18306916348894",
+        "lng": "34.8602124006179"
+      }
+    },
+    {
+      "id": "f29e",
+      "cityName": "Jerusalem",
+      "country": "Israel",
+      "date": "2024-02-01T17:47:21.135Z",
+      "notes": "Holy city",
+      "emoji": "🇮🇱",
+      "position": {
+        "lat": "31.77312640114433",
+        "lng": "35.21942138671876"
+      }
+    },
+    {
+      "id": "ff91",
+      "cityName": "Sudbury",
+      "country": "Canada",
+      "date": "2024-02-01T19:10:17.185Z",
+      "notes": "",
+      "emoji": "🇨🇦",
+      "position": {
+        "lat": "46.49839225859763",
+        "lng": "-80.96099853515626"
+      }
+    },
+    {
+      "0": {
+        "cityName": "Lisbon",
+        "country": "Portugal",
+        "emoji": "🇵🇹",
+        "date": "2027-10-31T15:59:59.138Z",
+        "notes": "My favorite city so far!",
+        "position": {
+          "lat": 38.727881642324164,
+          "lng": -9.140900099907554
         },
-        {
-            "cityName": "Madrid",
-            "country": "Spain",
-            "emoji": "🇪🇸",
-            "date": "2027-07-15T08:22:53.976Z",
-            "notes": "",
-            "position": {
-                "lat": 40.46635901755316,
-                "lng": -3.7133789062500004
-            },
-            "id": 17806751
+        "id": "73930385"
+      },
+      "1": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
         },
-        {
-            "cityName": "Berlin",
-            "country": "Germany",
-            "emoji": "🇩🇪",
-            "date": "2027-02-12T09:24:11.863Z",
-            "notes": "Amazing 😃",
-            "position": {
-                "lat": 52.53586782505711,
-                "lng": 13.376933665713324
-            },
-            "id": 98443197
+        "id": "17806751"
+      },
+      "2": {
+        "cityName": "Berlin",
+        "country": "Germany",
+        "emoji": "🇩🇪",
+        "date": "2027-02-12T09:24:11.863Z",
+        "notes": "Amazing 😃",
+        "position": {
+          "lat": 52.53586782505711,
+          "lng": 13.376933665713324
         },
-        {
-            "cityName": "Nijar",
-            "country": "Spain",
-            "emoji": "🇪🇸",
-            "date": "2023-04-03T07:47:59.202Z",
-            "notes": "",
-            "position": {
-                "lat": "36.967508314568164",
-                "lng": "-2.13128394200588"
-            },
-            "id": 98443198
+        "id": "98443197"
+      },
+      "3": {
+        "cityName": "Nijar",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2023-04-03T07:47:59.202Z",
+        "notes": "",
+        "position": {
+          "lat": "36.967508314568164",
+          "lng": "-2.13128394200588"
+        },
+        "id": "98443198"
+      },
+      "4": {
+        "id": "6457",
+        "cityName": "Ra'anana",
+        "country": "Israel",
+        "date": "2024-02-01T17:46:39.799Z",
+        "notes": "City I want to live in.",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "32.18306916348894",
+          "lng": "34.8602124006179"
         }
-    ]
+      },
+      "5": {
+        "id": "f29e",
+        "cityName": "Jerusalem",
+        "country": "Israel",
+        "date": "2024-02-01T17:47:21.135Z",
+        "notes": "Holy city",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "31.77312640114433",
+          "lng": "35.21942138671876"
+        }
+      },
+      "6": {
+        "id": "ff91",
+        "cityName": "Sudbury",
+        "country": "Canada",
+        "date": "2024-02-01T19:10:17.185Z",
+        "notes": "",
+        "emoji": "🇨🇦",
+        "position": {
+          "lat": "46.49839225859763",
+          "lng": "-80.96099853515626"
+        }
+      },
+      "id": "22dd"
+    },
+    {
+      "0": {
+        "cityName": "Lisbon",
+        "country": "Portugal",
+        "emoji": "🇵🇹",
+        "date": "2027-10-31T15:59:59.138Z",
+        "notes": "My favorite city so far!",
+        "position": {
+          "lat": 38.727881642324164,
+          "lng": -9.140900099907554
+        },
+        "id": "73930385"
+      },
+      "1": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
+        },
+        "id": "17806751"
+      },
+      "2": {
+        "cityName": "Berlin",
+        "country": "Germany",
+        "emoji": "🇩🇪",
+        "date": "2027-02-12T09:24:11.863Z",
+        "notes": "Amazing 😃",
+        "position": {
+          "lat": 52.53586782505711,
+          "lng": 13.376933665713324
+        },
+        "id": "98443197"
+      },
+      "3": {
+        "cityName": "Nijar",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2023-04-03T07:47:59.202Z",
+        "notes": "",
+        "position": {
+          "lat": "36.967508314568164",
+          "lng": "-2.13128394200588"
+        },
+        "id": "98443198"
+      },
+      "4": {
+        "id": "6457",
+        "cityName": "Ra'anana",
+        "country": "Israel",
+        "date": "2024-02-01T17:46:39.799Z",
+        "notes": "City I want to live in.",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "32.18306916348894",
+          "lng": "34.8602124006179"
+        }
+      },
+      "5": {
+        "id": "f29e",
+        "cityName": "Jerusalem",
+        "country": "Israel",
+        "date": "2024-02-01T17:47:21.135Z",
+        "notes": "Holy city",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "31.77312640114433",
+          "lng": "35.21942138671876"
+        }
+      },
+      "6": {
+        "id": "ff91",
+        "cityName": "Sudbury",
+        "country": "Canada",
+        "date": "2024-02-01T19:10:17.185Z",
+        "notes": "",
+        "emoji": "🇨🇦",
+        "position": {
+          "lat": "46.49839225859763",
+          "lng": "-80.96099853515626"
+        }
+      },
+      "id": "6296"
+    },
+    {
+      "0": {
+        "cityName": "Lisbon",
+        "country": "Portugal",
+        "emoji": "🇵🇹",
+        "date": "2027-10-31T15:59:59.138Z",
+        "notes": "My favorite city so far!",
+        "position": {
+          "lat": 38.727881642324164,
+          "lng": -9.140900099907554
+        },
+        "id": "73930385"
+      },
+      "1": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
+        },
+        "id": "17806751"
+      },
+      "2": {
+        "cityName": "Berlin",
+        "country": "Germany",
+        "emoji": "🇩🇪",
+        "date": "2027-02-12T09:24:11.863Z",
+        "notes": "Amazing 😃",
+        "position": {
+          "lat": 52.53586782505711,
+          "lng": 13.376933665713324
+        },
+        "id": "98443197"
+      },
+      "3": {
+        "cityName": "Nijar",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2023-04-03T07:47:59.202Z",
+        "notes": "",
+        "position": {
+          "lat": "36.967508314568164",
+          "lng": "-2.13128394200588"
+        },
+        "id": "98443198"
+      },
+      "4": {
+        "id": "6457",
+        "cityName": "Ra'anana",
+        "country": "Israel",
+        "date": "2024-02-01T17:46:39.799Z",
+        "notes": "City I want to live in.",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "32.18306916348894",
+          "lng": "34.8602124006179"
+        }
+      },
+      "5": {
+        "id": "f29e",
+        "cityName": "Jerusalem",
+        "country": "Israel",
+        "date": "2024-02-01T17:47:21.135Z",
+        "notes": "Holy city",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "31.77312640114433",
+          "lng": "35.21942138671876"
+        }
+      },
+      "6": {
+        "id": "ff91",
+        "cityName": "Sudbury",
+        "country": "Canada",
+        "date": "2024-02-01T19:10:17.185Z",
+        "notes": "",
+        "emoji": "🇨🇦",
+        "position": {
+          "lat": "46.49839225859763",
+          "lng": "-80.96099853515626"
+        }
+      },
+      "id": "ec2b"
+    },
+    {
+      "0": {
+        "cityName": "Lisbon",
+        "country": "Portugal",
+        "emoji": "🇵🇹",
+        "date": "2027-10-31T15:59:59.138Z",
+        "notes": "My favorite city so far!",
+        "position": {
+          "lat": 38.727881642324164,
+          "lng": -9.140900099907554
+        },
+        "id": "73930385"
+      },
+      "1": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
+        },
+        "id": "17806751"
+      },
+      "2": {
+        "cityName": "Berlin",
+        "country": "Germany",
+        "emoji": "🇩🇪",
+        "date": "2027-02-12T09:24:11.863Z",
+        "notes": "Amazing 😃",
+        "position": {
+          "lat": 52.53586782505711,
+          "lng": 13.376933665713324
+        },
+        "id": "98443197"
+      },
+      "3": {
+        "cityName": "Nijar",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2023-04-03T07:47:59.202Z",
+        "notes": "",
+        "position": {
+          "lat": "36.967508314568164",
+          "lng": "-2.13128394200588"
+        },
+        "id": "98443198"
+      },
+      "4": {
+        "id": "6457",
+        "cityName": "Ra'anana",
+        "country": "Israel",
+        "date": "2024-02-01T17:46:39.799Z",
+        "notes": "City I want to live in.",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "32.18306916348894",
+          "lng": "34.8602124006179"
+        }
+      },
+      "5": {
+        "id": "f29e",
+        "cityName": "Jerusalem",
+        "country": "Israel",
+        "date": "2024-02-01T17:47:21.135Z",
+        "notes": "Holy city",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "31.77312640114433",
+          "lng": "35.21942138671876"
+        }
+      },
+      "6": {
+        "id": "ff91",
+        "cityName": "Sudbury",
+        "country": "Canada",
+        "date": "2024-02-01T19:10:17.185Z",
+        "notes": "",
+        "emoji": "🇨🇦",
+        "position": {
+          "lat": "46.49839225859763",
+          "lng": "-80.96099853515626"
+        }
+      },
+      "id": "33e2"
+    },
+    {
+      "0": {
+        "cityName": "Lisbon",
+        "country": "Portugal",
+        "emoji": "🇵🇹",
+        "date": "2027-10-31T15:59:59.138Z",
+        "notes": "My favorite city so far!",
+        "position": {
+          "lat": 38.727881642324164,
+          "lng": -9.140900099907554
+        },
+        "id": "73930385"
+      },
+      "1": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
+        },
+        "id": "17806751"
+      },
+      "2": {
+        "cityName": "Berlin",
+        "country": "Germany",
+        "emoji": "🇩🇪",
+        "date": "2027-02-12T09:24:11.863Z",
+        "notes": "Amazing 😃",
+        "position": {
+          "lat": 52.53586782505711,
+          "lng": 13.376933665713324
+        },
+        "id": "98443197"
+      },
+      "3": {
+        "cityName": "Nijar",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2023-04-03T07:47:59.202Z",
+        "notes": "",
+        "position": {
+          "lat": "36.967508314568164",
+          "lng": "-2.13128394200588"
+        },
+        "id": "98443198"
+      },
+      "4": {
+        "id": "6457",
+        "cityName": "Ra'anana",
+        "country": "Israel",
+        "date": "2024-02-01T17:46:39.799Z",
+        "notes": "City I want to live in.",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "32.18306916348894",
+          "lng": "34.8602124006179"
+        }
+      },
+      "5": {
+        "id": "f29e",
+        "cityName": "Jerusalem",
+        "country": "Israel",
+        "date": "2024-02-01T17:47:21.135Z",
+        "notes": "Holy city",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "31.77312640114433",
+          "lng": "35.21942138671876"
+        }
+      },
+      "6": {
+        "id": "ff91",
+        "cityName": "Sudbury",
+        "country": "Canada",
+        "date": "2024-02-01T19:10:17.185Z",
+        "notes": "",
+        "emoji": "🇨🇦",
+        "position": {
+          "lat": "46.49839225859763",
+          "lng": "-80.96099853515626"
+        }
+      },
+      "id": "4681"
+    },
+    {
+      "0": {
+        "cityName": "Lisbon",
+        "country": "Portugal",
+        "emoji": "🇵🇹",
+        "date": "2027-10-31T15:59:59.138Z",
+        "notes": "My favorite city so far!",
+        "position": {
+          "lat": 38.727881642324164,
+          "lng": -9.140900099907554
+        },
+        "id": "73930385"
+      },
+      "1": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
+        },
+        "id": "17806751"
+      },
+      "2": {
+        "cityName": "Berlin",
+        "country": "Germany",
+        "emoji": "🇩🇪",
+        "date": "2027-02-12T09:24:11.863Z",
+        "notes": "Amazing 😃",
+        "position": {
+          "lat": 52.53586782505711,
+          "lng": 13.376933665713324
+        },
+        "id": "98443197"
+      },
+      "3": {
+        "cityName": "Nijar",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2023-04-03T07:47:59.202Z",
+        "notes": "",
+        "position": {
+          "lat": "36.967508314568164",
+          "lng": "-2.13128394200588"
+        },
+        "id": "98443198"
+      },
+      "4": {
+        "id": "6457",
+        "cityName": "Ra'anana",
+        "country": "Israel",
+        "date": "2024-02-01T17:46:39.799Z",
+        "notes": "City I want to live in.",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "32.18306916348894",
+          "lng": "34.8602124006179"
+        }
+      },
+      "5": {
+        "id": "ff91",
+        "cityName": "Sudbury",
+        "country": "Canada",
+        "date": "2024-02-01T19:10:17.185Z",
+        "notes": "",
+        "emoji": "🇨🇦",
+        "position": {
+          "lat": "46.49839225859763",
+          "lng": "-80.96099853515626"
+        }
+      },
+      "id": "3495"
+    },
+    {
+      "0": {
+        "cityName": "Lisbon",
+        "country": "Portugal",
+        "emoji": "🇵🇹",
+        "date": "2027-10-31T15:59:59.138Z",
+        "notes": "My favorite city so far!",
+        "position": {
+          "lat": 38.727881642324164,
+          "lng": -9.140900099907554
+        },
+        "id": "73930385"
+      },
+      "1": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
+        },
+        "id": "17806751"
+      },
+      "2": {
+        "cityName": "Berlin",
+        "country": "Germany",
+        "emoji": "🇩🇪",
+        "date": "2027-02-12T09:24:11.863Z",
+        "notes": "Amazing 😃",
+        "position": {
+          "lat": 52.53586782505711,
+          "lng": 13.376933665713324
+        },
+        "id": "98443197"
+      },
+      "3": {
+        "cityName": "Nijar",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2023-04-03T07:47:59.202Z",
+        "notes": "",
+        "position": {
+          "lat": "36.967508314568164",
+          "lng": "-2.13128394200588"
+        },
+        "id": "98443198"
+      },
+      "4": {
+        "id": "6457",
+        "cityName": "Ra'anana",
+        "country": "Israel",
+        "date": "2024-02-01T17:46:39.799Z",
+        "notes": "City I want to live in.",
+        "emoji": "🇮🇱",
+        "position": {
+          "lat": "32.18306916348894",
+          "lng": "34.8602124006179"
+        }
+      },
+      "id": "0594"
+    },
+    {
+      "0": {
+        "cityName": "Lisbon",
+        "country": "Portugal",
+        "emoji": "🇵🇹",
+        "date": "2027-10-31T15:59:59.138Z",
+        "notes": "My favorite city so far!",
+        "position": {
+          "lat": 38.727881642324164,
+          "lng": -9.140900099907554
+        },
+        "id": "73930385"
+      },
+      "1": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
+        },
+        "id": "17806751"
+      },
+      "2": {
+        "cityName": "Berlin",
+        "country": "Germany",
+        "emoji": "🇩🇪",
+        "date": "2027-02-12T09:24:11.863Z",
+        "notes": "Amazing 😃",
+        "position": {
+          "lat": 52.53586782505711,
+          "lng": 13.376933665713324
+        },
+        "id": "98443197"
+      },
+      "3": {
+        "cityName": "Nijar",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2023-04-03T07:47:59.202Z",
+        "notes": "",
+        "position": {
+          "lat": "36.967508314568164",
+          "lng": "-2.13128394200588"
+        },
+        "id": "98443198"
+      },
+      "id": "d01c"
+    },
+    {
+      "0": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
+        },
+        "id": "17806751"
+      },
+      "1": {
+        "cityName": "Berlin",
+        "country": "Germany",
+        "emoji": "🇩🇪",
+        "date": "2027-02-12T09:24:11.863Z",
+        "notes": "Amazing 😃",
+        "position": {
+          "lat": 52.53586782505711,
+          "lng": 13.376933665713324
+        },
+        "id": "98443197"
+      },
+      "2": {
+        "cityName": "Nijar",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2023-04-03T07:47:59.202Z",
+        "notes": "",
+        "position": {
+          "lat": "36.967508314568164",
+          "lng": "-2.13128394200588"
+        },
+        "id": "98443198"
+      },
+      "id": "d541"
+    },
+    {
+      "0": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
+        },
+        "id": "17806751"
+      },
+      "1": {
+        "cityName": "Nijar",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2023-04-03T07:47:59.202Z",
+        "notes": "",
+        "position": {
+          "lat": "36.967508314568164",
+          "lng": "-2.13128394200588"
+        },
+        "id": "98443198"
+      },
+      "id": "f19a"
+    },
+    {
+      "0": {
+        "cityName": "Madrid",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "date": "2027-07-15T08:22:53.976Z",
+        "notes": "",
+        "position": {
+          "lat": 40.46635901755316,
+          "lng": -3.7133789062500004
+        },
+        "id": "17806751"
+      },
+      "id": "6e99"
+    }
+  ]
 }
