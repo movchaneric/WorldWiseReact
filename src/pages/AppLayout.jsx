@@ -2,6 +2,7 @@ import AppNav from "../components/AppNav/AppNav";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Map from "../components/Map/Map";
 import styles from "./AppLayout.module.css";
+import User from "../components/User/User";
 
 const AppLayout = () => {
   return (
@@ -9,6 +10,7 @@ const AppLayout = () => {
       <div className={styles.app}>
         <Sidebar />
         <Map />
+        <User />
       </div>
     </>
   );

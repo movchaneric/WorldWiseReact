@@ -35,10 +35,13 @@ const CityItem = ({ city }) => {
   //destruct city object for easier use
   const { cityName, emoji, id, position } = city;
   const { currentCity, deleteCity } = useCities();
+
   const handleDeleteCity = (e) => {
     e.preventDefault();
     deleteCity(id);
   };
+
+  
   return (
     <li>
       <Link

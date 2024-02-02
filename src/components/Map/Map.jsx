@@ -16,7 +16,7 @@ import {
 const Map = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [mapPosition, setMapPosition] = useState([40, 0]);
-  const { cities, currentCity } = useCities();
+  const { cities } = useCities();
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,

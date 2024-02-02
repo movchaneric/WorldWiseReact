@@ -79,12 +79,12 @@ const Form = () => {
     const newCity = {
       cityName,
       country,
+      emoji: countryEmoji,
       date,
       notes,
-      emoji: countryEmoji,
       position: {
-        lat: formLat,
-        lng: formLng,
+        lat: Number(formLat),
+        lng: Number(formLng),
       },
     };
 
