@@ -11,6 +11,7 @@ import City from "./components/City/City";
 import Form from "./components/Form/Form";
 import { CitiesProvider } from "./context/CitiesContext";
 import { AuthProvider } from "./context/AuthContext";
+import ProtectedPage from "./pages/ProtectedPage";
 
 const App = () => {
   return (
@@ -20,7 +21,14 @@ const App = () => {
           <BrowserRouter>
             <Routes>
               <Route index element={<HomePage />} />
-              <Route path="app" element={<AppLayout />}>
+              <Route
+                path="app"
+                element={
+                  <ProtectedPage>
+                    <AppLayout />
+                  </ProtectedPage>
+                }
+              >
                 {/* Index route is the default child route  */}
                 <Route index element={<Navigate replace to="cities" />} />
                 <Route path="cities" element={<CityList />} />
@@ -32,7 +40,7 @@ const App = () => {
               <Route path="products" element={<Product />} />
               <Route path="pricing" element={<Pricing />} />
               <Route path="login" element={<Login />} />
-
+              {/* for unknown path's */}
               <Route path="*" element={<PageNotFound />} />
             </Routes>
           </BrowserRouter>
